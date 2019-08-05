@@ -1,0 +1,53 @@
+Character.destroy_all
+
+Character.create(
+    name: "Lyndis ",
+     gender: "Female",
+     starting_class: "Lord",
+     nationality: "Sacae" ,
+     description:"A young girl from the Lorca tribe. Stouthearted and kind." ,
+     affinity:"Wind" )
+Character.create(name: "Kent",
+     gender: "Male" , starting_class: "Cavalier" , nationality: "Caelin", description: "A knight in service to house Caelin. Virtuous to a fault.", affinity: "Anima")
+Character.create(name: "Sain", gender: "Male" , starting_class: "Cavalier" , nationality: "Caelin", description: "A knight in service to house Caelin. A bit of a scoundrel.", affinity: "Wind")
+Character.create(name: "Florina", gender: "Female", starting_class: "Peg Knight", nationality: "Ilia", description: "A pegasus knight earning her title. A friend of Lyn’s.", affinity: "Light")
+Character.create(name: "Wil", gender: "Male" , starting_class:  "Archer", nationality: "Pherae", description: "A youth from Pherae, in the Lycian League. Very social.", affinity: "Wind")
+Character.create(name: "Dorcas", gender: "Male" , starting_class: "Fighter", nationality: "Bern", description: "A man from a small village in Bern. Fights for his wife.", affinity: "Fire")
+Character.create(name: "Serra", gender: "Female", starting_class: "Cleric", nationality: "Ostia", description: "A cleric in service to House Ostia. Headstrong and bold.", affinity: "Thunder")
+Character.create(name: "Erk", gender: "Male" , starting_class: "Mage", nationality: "Etruria", description: "A young mage from Etruria. Charming, but uptight.", affinity: "Thunder")
+Character.create(name: "Rath", gender: "Male" , starting_class: "Nomad", nationality: "Sacae", description: "A young hired sword from the Kutolah tribe.", affinity: "Dark")
+Character.create(name: "Matthew", gender: "Male" , starting_class: "Thief", nationality: "Ostia", description: "A cheery thief. His casual demeanor belies his skill.", affinity: "Wind")
+Character.create(name: "Nils", gender: "Male" , starting_class: "Bard", nationality: "Ilia", description: "A bard possessing arcane powers. Brother of Ninian.", affinity: "Ice")
+Character.create(name: "Lucius", gender: "Male" , starting_class: "Monk", nationality: "Etruria", description: "A travelling acolyte. Gentle and serene.", affinity: "Light")
+Character.create(name: "Wallace", gender: "Male" , starting_class: "Knight", nationality: "Caelin", description: "A retired knight of Caelin. Constantly testing himself.", affinity: "Thunder")
+Character.create(name: "Eliwood", gender: "Male" , starting_class: "Lord", nationality: "Pherae", description: "Marquess Pherae's young son. Just and honorable.", affinity: "Anima")
+Character.create(name: "Marcus", gender: "Male" , starting_class: "Paladin", nationality: "Pherae", description: "A paladin serving House Pherae. A skilled veteran.", affinity: "Ice")
+Character.create(name: "Lowen", gender: "Male" , starting_class: "Cavalier" , nationality: "Pherae", description: "A knight in service to House Pherae. A fresh recruit.", affinity: "Fire")
+Character.create(name: "Rebecca", gender:"Female" , starting_class: "Archer" , nationality: "Pherae", description: "A youth from Pherae. Very helpful and bright.", affinity: "Fire")
+Character.create(name: "Bartre", gender: "Male" , starting_class: "Fighter" , nationality: "???, most likely Ostia or Pherae", description: "One of Eliwood’s guardsmen. Duty is everything to him.", affinity: "Thunder")
+Character.create(name: "Hector", gender: "Male" , starting_class: "Lord" , nationality: "Ostia", description: "Marquess Ostia’s younger brother. Reckless, but loyal.", affinity: "Thunder")
+Character.create(name: "Oswin", gender: "Male" , starting_class:"Knight" , nationality: "Ostia", description: "A knight in service to House Ostia. Hector’s sworn man.", affinity: "Anima")
+Character.create(name: "Guy", gender: "Male" , starting_class: "Myrmidon" , nationality: "Sacae", description: "A youth from Sacae. Yearns to be a swordmaster.", affinity: "Fire")
+Character.create(name: "Merlinus", gender: "Male" , starting_class: "Merchant" , nationality: "???", description: "A traveling merchant. Timid and easily frightened.", affinity: "Dark")
+Character.create(name: "Priscilla", gender: "Female", starting_class: "Troubador" , nationality: "Cornwell", description: "A vassal in service to Count Caerleon of Etruria.", affinity: "Wind")
+Character.create(name: "Raven", gender: "Male" , starting_class: "Mercenary" , nationality: "Cornwell", description: "A troubled mercenary with a grudge against House Ostia.", affinity: "Ice")
+Character.create(name: "Canas", gender: "Male" , starting_class: "Shaman" , nationality: "Ilia", description: "A scholar, and a novice student of ancient magics.", affinity: "Anima")
+Character.create(name: "Dart", gender: "Male" , starting_class: "Pirate", nationality: "Pherae", description: "One of Fargus' corsairs. Foulmouthed, but kind.", affinity: "Fire")
+Character.create(name: "Fiora", gender: "Female", starting_class: "Peg Knight", nationality: "Ilia", description: "Commander of the 5th wing of Ilia's pegasus knights.", affinity: "Wind")
+Character.create(name: "Legault", gender: "Male", starting_class: "Thief" , nationality: "Bern", description: "A former Black Fang once known as Hurricane.", affinity: "Ice")
+Character.create(name: "Ninian", gender: "Female", starting_class: "Dancer", nationality: "Ilia", description: "A somber girl. Quiet,but filled with a solemn energy.", affinity: "Ice")
+Character.create(name: "Isadora", gender: "Female", starting_class: "Paladin" , nationality: "Pherae", description: "A paladin in service to House Pherae. Modest and polite.", affinity: "Dark")
+Character.create(name: "Heath", gender: "Male" , starting_class: "Wyvern Knight", nationality: "Bern", description: "A deserter from Bern’s wyvern riders. Prideful.", affinity: "Thunder")
+Character.create(name: "Hawkeye", gender: "Male" , starting_class: "Berserker" , nationality: "Nabata", description: "The protector of Nabata. A mysterious air surrounds him.", affinity: "Wind")
+Character.create(name: "Geitz", gender: "Male" , starting_class: "Warrior", nationality: "Bulgar", description: "The eldest son of a wealthy merchant. Finding himself.", affinity: "Thunder")
+Character.create(name: "Pent", gender: "Male" , starting_class: "Sage", nationality: "Etruria", description: "Marquess of Reglay. Sole student of Archsage Athos.", affinity: "Ice")
+Character.create(name: "Louise", gender: "Female", starting_class: "Sniper", nationality: "Etruria", description: "The wife of Marquess Reglay. A lethal beauty.", affinity: "Light")
+Character.create(name: "Karel", gender: "Male" , starting_class: "Swordmaster", nationality: "Sacae", description: "An eastern swordmaster. Seeking worthy opponents.", affinity: "Light")
+Character.create(name: "Harken", gender: "Male" , starting_class: "Hero", nationality: "Pherae", description: "The sole survivor of the Knights of Pherae.", affinity: "Fire")
+Character.create(name: "Nino", gender: "Female", starting_class: "Mage", nationality: "???", description: "One of the Black Fang. True and innocent.", affinity: "Fire")
+Character.create(name: "Jaffar", gender: "Male", starting_class: "Assassin", nationality: "???", description: "The Black Fang’s Angel of Death. Once served Nergal.", affinity: "Ice")
+Character.create(name: "Vaida", gender: "Female", starting_class: "Wyvern Lord", nationality: "Bern", description: "A deserter from Bern’s wyvern riders. Brutal.", affinity: "Fire")
+Character.create(name: "Renault", gender: "Male", starting_class: "Bishop", nationality: "???", description: "A cleric wandering Valor. Shrouded in mystery.", affinity: "Anima")
+Character.create(name: "Athos", gender: "Male", starting_class: "Archsage", nationality: "???", description: "An archsage. One of the eight legendary heroes.", affinity: "Anima")
+Character.create(name: "Farina", gender: "Female", starting_class:"Peg Knight" , nationality: "Ilia", description: "A member of the 3rd wing of Ilia’s pegasus knights.", affinity: "Anima")
+Character.create(name: "Karla", gender: "Female", starting_class: "Swordmaster", nationality: "Sacae", description: "A dedicated swordfighter. Cool and detached.", affinity: "Dark")
