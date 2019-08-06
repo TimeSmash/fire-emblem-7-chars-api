@@ -1,5 +1,8 @@
 # README
 
+
+This app shows code related to the Medium article "Blazing Blade: Building a Simple API with Rails" and can be used as a reference for the many sections it is broken up into.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

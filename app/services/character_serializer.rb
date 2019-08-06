@@ -11,5 +11,5 @@ class CharacterSerializer
         @character.to_json(options)
     end
 
-
 end
+

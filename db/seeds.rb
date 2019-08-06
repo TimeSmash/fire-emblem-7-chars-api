@@ -1,5 +1,3 @@
-Character.destroy_all
-
 Character.create(
     name: "Lyndis ",
      gender: "Female",
@@ -7,8 +5,7 @@ Character.create(
      nationality: "Sacae" ,
      description:"A young girl from the Lorca tribe. Stouthearted and kind." ,
      affinity:"Wind" )
-Character.create(name: "Kent",
-     gender: "Male" , starting_class: "Cavalier" , nationality: "Caelin", description: "A knight in service to house Caelin. Virtuous to a fault.", affinity: "Anima")
+Character.create(name: "Kent", gender: "Male" , starting_class: "Cavalier" , nationality: "Caelin", description: "A knight in service to house Caelin. Virtuous to a fault.", affinity: "Anima")
 Character.create(name: "Sain", gender: "Male" , starting_class: "Cavalier" , nationality: "Caelin", description: "A knight in service to house Caelin. A bit of a scoundrel.", affinity: "Wind")
 Character.create(name: "Florina", gender: "Female", starting_class: "Peg Knight", nationality: "Ilia", description: "A pegasus knight earning her title. A friend of Lyn’s.", affinity: "Light")
 Character.create(name: "Wil", gender: "Male" , starting_class:  "Archer", nationality: "Pherae", description: "A youth from Pherae, in the Lycian League. Very social.", affinity: "Wind")

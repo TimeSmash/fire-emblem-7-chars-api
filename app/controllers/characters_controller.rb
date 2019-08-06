@@ -10,12 +10,9 @@ class CharactersController < ApplicationController
         render json: CharacterSerializer.new(@character).to_serialized_json
     end
 
-    def female_characters
-        #Custome 
-    end
 
-
-#End result of controller action, each action gives certain piece of data. Endpoint can be seen as that data.
+# BELOW IS FOR LEARNING PURPOSES ONLY! 
+#Default routes seen below. If no serialization used, all attributes of object will be sent over.
 
     # def index
     #     @characters = Character.all
@@ -26,4 +23,6 @@ class CharactersController < ApplicationController
     #     @character = Character.find(params[:id])
     #     render json: @character
     # end
+
+
 end
